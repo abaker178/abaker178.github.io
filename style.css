@@ -53,8 +53,8 @@ a {
 
 #bio-name {
   position: absolute;
-  top: 150px;
-  left: 30px;
+  top: -20px;
+  left: 10px;
 }
 
 #main-bio {
