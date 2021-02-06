@@ -1,31 +1,42 @@
 <!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>About Me</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+  
 <body>
-    <section>
-        <h1>Andrew Baker</h1>
-        <hr>
-        <h3>About Me</h3>
-        <p>
-            I graduated from Towson University with a B.A. in Music Composition. I enjoy using graphic notation and coding as a part of the composition process (i.e. <a href="placeholder">Chutes & Ladders</a> and <a href="placeholder">Pathways</a>). I am a Certified Sommelier with the Court of Master Sommeliers of the Americas. Currently, I am pursuing a career in Data Science, Analytics, and Visualization.
-        </p>
-        <h3>Hobbies</h3>
-        <ul>
-            <li>Play Hockey</li>
-            <li>Study Chess</li>
-            <li>Crossword and Sudoko puzzles</li>
-            <li>Learning German</li>
-        </ul>
-        <h3>Contact Me</h3>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/abaker178/">LinkedIn</a></li>
-            <li><a href="mailto:abaker178@gmail.com">Email</a></li>
-        </ul>
+  <header>
+    <h1>About Me</h1>
+  </header>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Andrew Baker</h2>
+        <img id="bio-image" src="https://placehold.it/200x200" alt="Andrew Baker">
+      </section>
+      <p>I graduated from Towson University with a B.A. in Music Composition. I enjoy using graphic notation and coding as a part of the composition process (i.e. <a href="placeholder">Chutes & Ladders</a> and <a href="placeholder">Pathways</a>). I am a Certified Sommelier with the Court of Master Sommeliers of the Americas. Currently, I am pursuing a career in Data Science, Analytics, and Visualization.</p>
     </section>
-    <hr>
 
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><a href="mailto:abaker178@gmail.com"><strong>Email</strong> </a></li>
+        <li><a href="https://www.github.com/abaker178"><strong>Github</strong></a></li>
+        <li><a href="https://www.linkedin.com/abaker178"><strong>LinkedIn</strong></a></li>
+        <li><a href="https://abaker178.github.io"><strong>Portfolio</strong></a></li>
+      </ul>
+    </aside>
+  </main>
+  <h3>Hobbies</h3>
+  <ul>
+    <li>Play Hockey</li>
+    <li>Study Chess</li>
+    <li>Crossword and Sudoko puzzles</li>
+    <li>Learning German</li>
+  </ul>
 </body>
+
 </html>
