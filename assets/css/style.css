@@ -353,6 +353,7 @@ section .container {
   text-transform: uppercase;
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
+  display: inline-block;
 }
 
 .section-title h2::after {
@@ -390,6 +391,20 @@ section .container {
 
 .about-me .content ul li {
   padding-bottom: 10px;
+}
+
+ul.skills li {
+  list-style: none;
+  padding: 0;
+}
+
+ul.skills li::before {
+  content: "\2022";
+  color: #18d26e;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .about-me .content ul i {
